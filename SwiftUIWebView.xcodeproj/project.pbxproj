@@ -18,7 +18,7 @@
 		6E429FA12452A2D200A5678D /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6E429FA02452A2D200A5678D /* www */; };
 		6E429FA32453D6FC00A5678D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429FA22453D6FC00A5678D /* ViewModel.swift */; };
 		6E429FA62453F7C700A5678D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429FA52453F7C700A5678D /* WebView.swift */; };
-		6E429FA82453FBF800A5678D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429FA72453FBF800A5678D /* Loader.swift */; };
+		DEAC75DC261714F1008353E6 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC75DB261714F1008353E6 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		6E429FA22453D6FC00A5678D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		6E429FA42453F64700A5678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E429FA52453F7C700A5678D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		6E429FA72453FBF800A5678D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		DEAC75DB261714F1008353E6 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = ../../../.Trashes/501/Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				6E429F6D24528DD400A5678D /* ContentView.swift */,
 				6E429FA22453D6FC00A5678D /* ViewModel.swift */,
 				6E429FA52453F7C700A5678D /* WebView.swift */,
-				6E429FA72453FBF800A5678D /* Loader.swift */,
+				DEAC75DB261714F1008353E6 /* Loader.swift */,
 				6E429F6F24528DD600A5678D /* Assets.xcassets */,
 				6E429F7424528DD600A5678D /* LaunchScreen.storyboard */,
 				6E429F7124528DD600A5678D /* Preview Content */,
@@ -282,7 +282,7 @@
 			files = (
 				6E429F6A24528DD400A5678D /* AppDelegate.swift in Sources */,
 				6E429FA62453F7C700A5678D /* WebView.swift in Sources */,
-				6E429FA82453FBF800A5678D /* Loader.swift in Sources */,
+				DEAC75DC261714F1008353E6 /* Loader.swift in Sources */,
 				6E429FA32453D6FC00A5678D /* ViewModel.swift in Sources */,
 				6E429F6C24528DD400A5678D /* SceneDelegate.swift in Sources */,
 				6E429F6E24528DD400A5678D /* ContentView.swift in Sources */,
@@ -452,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebView/Preview Content\"";
-				DEVELOPMENT_TEAM = 9D93WZA28F;
+				DEVELOPMENT_TEAM = 896WS4KUPV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebView/Preview Content\"";
-				DEVELOPMENT_TEAM = 9D93WZA28F;
+				DEVELOPMENT_TEAM = 896WS4KUPV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -11,6 +11,8 @@ import UIKit
 import SwiftUI
 import Combine
 import WebKit
+import JavaScriptCore
+
 
 // MARK: - WebViewHandlerDelegate
 // For printing values received from web app
@@ -63,7 +65,7 @@ struct WebView: UIViewRepresentable, WebViewHandlerDelegate {
             }
         } else if url == .publicUrl {
             // Load a public website, for example I used here google.com
-            if let url = URL(string: "https://www.google.com") {
+            if let url = URL(string: "https://www.baidu.com") {
                 webView.load(URLRequest(url: url))
             }
         }
@@ -103,7 +105,7 @@ struct WebView: UIViewRepresentable, WebViewHandlerDelegate {
             /* An observer that observes 'viewModel.valuePublisher' to get value from TextField and
              pass that value to web app by calling JavaScript function */
             valueSubscriber = parent.viewModel.valuePublisher.receive(on: RunLoop.main).sink(receiveValue: { value in
-                let javascriptFunction = "valueGotFromIOS(\(value));"
+                let javascriptFunction = #"valueGotFromIOS("\#(value)");"#
                 webView.evaluateJavaScript(javascriptFunction) { (response, error) in
                     if let error = error {
                         print("Error calling javascript:valueGotFromIOS()")
