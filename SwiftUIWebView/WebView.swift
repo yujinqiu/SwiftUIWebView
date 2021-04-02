@@ -11,7 +11,6 @@ import UIKit
 import SwiftUI
 import Combine
 import WebKit
-import JavaScriptCore
 
 
 // MARK: - WebViewHandlerDelegate
